@@ -1,0 +1,22 @@
+
+/* input[type="button"] {
+    background-color: rgba(170, 143, 23, 0.87);
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+  text-align: center;
+  white-space: normal;
+    padding: 2px 23px;
+    font-size: 20px;
+
+  } */
+ mat-button{
+    background-color: rgba(170, 143, 23, 0.87);
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+  text-align: center;
+  white-space: normal;
+    padding: 2px 23px;
+    font-size: 20px;
+  }

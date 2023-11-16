@@ -1,0 +1,33 @@
+<div class="navbar">
+    <div class="start">
+        <img src="../../../assets/images/header/logo.png" id="logo" alt="logo" style="width:200%; height: 60px; margin-top: 10px;" />
+    </div>
+    <!-- menu.component.html -->
+
+<button mat-button [matMenuTriggerFor]="menu" style="color: white; width: 50px;font-weight: bold;">
+    <mat-icon >menu</mat-icon> 
+  </button>
+  
+  <mat-menu #menu="matMenu">
+    <mat-nav-list class="list">
+        <a mat-list-item routerLink="/" class="menu-item-primary">
+          <mat-icon>home</mat-icon>
+          Home
+        </a>
+        <a mat-list-item routerLink="/about" class="menu-item-secondary">
+          <mat-icon>info</mat-icon>
+          About
+        </a>
+        <a mat-list-item routerLink="/contact" class="menu-item-tertiary">
+          <mat-icon>contact_support</mat-icon>
+          Contact Us
+        </a>
+        <a mat-list-item routerLink="/help" class="menu-item-quaternary">
+          <mat-icon>help</mat-icon>
+          Help
+        </a>
+      </mat-nav-list>
+  </mat-menu>
+  
+    
+

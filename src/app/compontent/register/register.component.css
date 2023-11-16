@@ -1,0 +1,25 @@
+@import '../../../assets/bootstrap-v4/css/bootstrap.css';
+input[type="button"] {
+    background-color: rgba(170, 143, 23, 0.87);
+    box-sizing: border-box;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    white-space: normal;
+  
+  }
+  input[type="submit"] {
+    background-color: rgba(170, 143, 23, 0.87);
+    box-sizing: border-box;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    white-space: normal;
+  
+  }
+  .p-elment{
+    width: 600px;
+    margin-top: 30px;
+  }
